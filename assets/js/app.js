@@ -1,7 +1,7 @@
 const { to, set, registerPlugin } = gsap;
 
-const checkAudio = new Audio("/assets/audio/check.mp3");
-const flagAudio = new Audio("/assets/audio/flag-2.mp3");
+const checkAudio = new Audio("../assets/audio/check.mp3");
+const flagAudio = new Audio("../assets/audio/flag-2.mp3");
 
 registerPlugin(MorphSVGPlugin);
 
@@ -170,8 +170,8 @@ document.querySelectorAll(".task-item").forEach(task => {
     });
 });
 
-const fireworkAudio = new Audio("/assets/audio/firework.mp3");
-const fireworkStartAudio = new Audio("/assets/audio/firework-start.mp3");
+const fireworkAudio = new Audio("../assets/audio/firework.mp3");
+const fireworkStartAudio = new Audio("../assets/audio/firework-start.mp3");
 
 const Renderer = {
     initialised: false,
